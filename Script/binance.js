@@ -5,7 +5,6 @@ const Binance = require('binance-api-node').default;
 const client = Binance({
     apiKey: process.env.BINANCE_API_KEY,
     apiSecret: process.env.BINANCE_API_SECRET,
-    // Uncomment the following line to use the testnet (for testing purposes)
     testnet: true,
 });
 
