@@ -195,6 +195,7 @@ async function trade() {
         console.log(`Placing testnet spot trade for ${firstTokenName}...`);
         await getWalletBalances();
         await placeTestnetSpotTrade(firstTokenName, 'BUY', 1000);
+        // await placeTestnetSpotTrade(firstTokenName, 'SELL', 1000); // For sell test
         await getWalletBalances();
     } else {
         console.error('No tokens data available for trading.');

@@ -271,7 +271,7 @@
         {
           "filterType": "MARKET_LOT_SIZE",
           "minQty": "0.00000000",
-          "maxQty": "289397.82925000",
+          "maxQty": "303574.90937238",
           "stepSize": "0.00000000"
         },
         {
@@ -476,7 +476,7 @@
         {
           "filterType": "MARKET_LOT_SIZE",
           "minQty": "0.00000000",
-          "maxQty": "464465.47220833",
+          "maxQty": "423466.35610878",
           "stepSize": "0.00000000"
         },
         {
